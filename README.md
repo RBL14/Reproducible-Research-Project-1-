@@ -44,7 +44,7 @@ steps_by_day <- aggregate(steps ~ date, data, sum)
 hist(steps_by_day$steps, main = paste("Total Steps Per Day"), col="orange", xlab="Number of Steps")
 ```
 
-![Img1](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img1.png)
+![Img1](https://github.com/RBL14/Reproducible-Research-Project-1-/blob/master/Project%201_files/img1.png)
 
 
 ```{r}
