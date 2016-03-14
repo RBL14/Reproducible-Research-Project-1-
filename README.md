@@ -69,7 +69,7 @@ plot(steps_by_interval$interval,steps_by_interval$steps, type="l", xlab="Interva
 
 ```
 
-![Img2](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img2.png)
+![Img2](https://github.com/RBL14/Reproducible-Research-Project-1-/blob/master/Project%201_files/img2.png)
 
 
 ```{r}
@@ -108,7 +108,7 @@ legend("topright", c("Imputed", "Non-imputed"), col=c("red", "orange"), lwd=10)
 Create Histogram to show difference.
 
 
-![Img3](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img3.png)
+![Img3](https://github.com/RBL14/Reproducible-Research-Project-1-/blob/master/Project%201_files/img3.png)
 
 Calculate new mean and median for imputed data.
 
@@ -155,4 +155,4 @@ xyplot(steps_by_interval_i$steps ~ steps_by_interval_i$interval|steps_by_interva
 ```
 
 
-![Img4](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img4.png)
+![Img4](https://github.com/RBL14/Reproducible-Research-Project-1-/blob/master/Project%201_files/img4.png)
