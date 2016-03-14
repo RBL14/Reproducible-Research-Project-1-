@@ -44,6 +44,8 @@ steps_by_day <- aggregate(steps ~ date, data, sum)
 hist(steps_by_day$steps, main = paste("Total Steps Per Day"), col="orange", xlab="Number of Steps")
 ```
 
+![Img1](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img1.png)
+
 
 ```{r}
 rmean <- mean(steps_by_day$steps)
@@ -67,6 +69,7 @@ plot(steps_by_interval$interval,steps_by_interval$steps, type="l", xlab="Interva
 
 ```
 
+![Img2](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img2.png)
 
 
 ```{r}
@@ -105,6 +108,7 @@ legend("topright", c("Imputed", "Non-imputed"), col=c("red", "orange"), lwd=10)
 Create Histogram to show difference.
 
 
+![Img3](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img3.png)
 
 Calculate new mean and median for imputed data.
 
@@ -150,3 +154,5 @@ xyplot(steps_by_interval_i$steps ~ steps_by_interval_i$interval|steps_by_interva
 
 ```
 
+
+![Img4](https://github.com/RBL14/Reproducible-Research-Project-1-/Project 1_files/img4.png)
